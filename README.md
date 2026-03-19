@@ -38,4 +38,6 @@ ouaga-stress-env/
 ```
 
 ## 👤 Auteur
+**NABDA Issaka Joel**
 Formation Data Scientist - Projet Smart City
+Ouagadougou, Burkina Faso
