@@ -1,0 +1,51 @@
+{
+  "features": [
+    "NO2",
+    "CO",
+    "LST",
+    "temperature",
+    "precipitation",
+    "humidite",
+    "pression",
+    "mois_sin",
+    "mois_cos",
+    "jour_sin",
+    "saison_seche",
+    "AAI_lag1",
+    "AAI_lag3",
+    "AAI_lag7",
+    "AAI_lag14",
+    "AAI_lag30",
+    "AAI_roll7",
+    "AAI_roll14",
+    "AAI_roll30",
+    "vitesse_vent",
+    "humidite_relative",
+    "LST_lag1",
+    "LST_lag7",
+    "temp_lag1",
+    "NO2_lag1",
+    "NO2_lag7",
+    "CO_lag1",
+    "CO_lag7",
+    "delta_temp",
+    "precipitation_roll7",
+    "vitesse_vent_lag1",
+    "AAI_lag2",
+    "pluie_bin",
+    "vent_nord"
+  ],
+  "seuil_optimal": 0.44999999999999996,
+  "metriques": {
+    "regression": {
+      "RMSE": 0.6784882074267949,
+      "MAE": 0.5082770322443274,
+      "R2": 0.2810589786610811
+    },
+    "classification": {
+      "F1": 0.4870848708487085,
+      "AUC_ROC": 0.7993459022701038,
+      "Recall": 0.717391304347826
+    }
+  }
+}
